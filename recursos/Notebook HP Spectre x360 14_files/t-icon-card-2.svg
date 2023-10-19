@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 173 75" style="enable-background:new 0 0 173 75;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#2C3038;}
+	.st1{font-family:'HPSimplified-Light';}
+	.st2{font-size:14px;}
+	.st3{fill:#F4F4F4;}
+	.st4{fill:#5A5A5A;}
+	.st5{fill:none;}
+</style>
+<g id="Group_6116_mx" transform="translate(-45.5 -678)">
+	<text transform="matrix(1 0 0 1 128.5 712)" class="st0 st1 st2">Cuotas</text>
+	<text transform="matrix(1 0 0 1 128.5 730)" class="st0 st1 st2">sin interés</text>
+	<g id="Group_6114">
+		<circle id="Ellipse_178" class="st3" cx="83" cy="715.5" r="37.5"/>
+		<g id="icon_payment_m" transform="translate(62.5 696)">
+			<path id="Path_4131" class="st4" d="M33,9.6H7c-1.7,0-3,1.3-3,3v14.8c0,1.7,1.3,3,3,3h26c1.7,0,3-1.3,3-3V12.6
+				C36,11,34.7,9.6,33,9.6z M7,11.6h26c0.6,0,1,0.4,1,1V14H6v-1.4C6,12.1,6.4,11.6,7,11.6z M33,28.4H7c-0.6,0-1-0.4-1-1V16h28v11.4
+				C34,27.9,33.6,28.4,33,28.4z M32,26h-8v-4h8V26z"/>
+			<path id="Rectangle_2055" class="st5" d="M0,0h40v40H0V0z"/>
+		</g>
+	</g>
+</g>
+</svg>

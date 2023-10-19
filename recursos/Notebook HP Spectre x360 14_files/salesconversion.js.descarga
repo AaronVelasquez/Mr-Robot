@@ -1,0 +1,93 @@
+/**
+* Function to send sales completion details to CIM Channels ***
+*/
+
+var obj = null;
+function salesConversion(sessionid, sessionguid, currency, amount, variable1, variable2)
+{
+    var rnd = Math.floor(Math.random()* 9999);
+    var server_action = "/NetAgent/scripts/srvgate.dll?Action=4014";
+
+    // PLEASE PUT CIM SERVER INFORMATION HERE
+    var server_name = "h30665.www3.hp.com";
+    var server_port = "443";
+    var server_protocol = "https://";
+    // PLEASE PUT CIM SERVER INFORMATION HERE
+
+    var server_url = server_protocol + server_name + ":" + server_port + server_action;  
+    server_url += "&sessionid=" + sessionid +
+		"&sessionguid=" + sessionguid +
+		"&currency=" + currency + 
+		"&amount=" + amount + 
+		"&variable1=" + variable1 + 
+		"&variable2=" + variable2 +
+		"&rnd=" + rnd;
+
+
+	obj = getXMLHttpRequest();
+	
+	try
+	{
+	if (obj != null)
+	{
+		obj.onreadystatechange = ProcessResponse;
+		obj.open("GET", server_url, false);
+		obj.send(null);
+	}
+	}
+	catch (ex)
+	{
+	    alert(ex);
+	}
+	
+	return false;
+}
+
+function getXMLHttpRequest()
+{
+  var httpRequest = null;
+
+  if (window.XMLHttpRequest != null)
+    httpRequest = new window.XMLHttpRequest();
+  else if (window.ActiveXObject != null)
+  {
+      var success = false;
+
+      try
+      {
+        httpRequest = new ActiveXObject("Microsoft.XMLHTTP");
+        success = true;
+      }
+      catch (ex)
+      {}
+
+  }
+
+  if (httpRequest == null)
+    alert("Error in HttpRequest():\n\n" + "Cannot create an XMLHttpRequest object.");
+
+  return httpRequest;
+}
+
+function ProcessResponse()
+{
+	if(obj.readyState == 4)
+	{
+		if(obj.status == 200)
+		{
+			var dsRoot=obj.responseXML.documentElement;  
+			var retobj = "";
+			var success = "";
+			retobj = dsRoot.getElementsByTagName('success');
+
+            success = retobj[0].textContent || retobj.innerText || retobj.text;
+            return success;
+
+		}
+		else
+		{
+			alert("Error!! Failed to connect to the CIM Channles server." + obj.status);
+		}
+	}
+	return false;
+}
