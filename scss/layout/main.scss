@@ -1,0 +1,237 @@
+main{
+    #productosDestacados{
+        margin-top: 10px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 25px;
+        color:#003049;
+        padding: 30px;
+    }
+    .carousel-control-prev, .carousel-control-next {
+        color: #d2924d;
+    }
+    .carrusel{
+        display: flex;
+        width: 100%;
+        padding: 30px;
+    }
+    .carousel-item {
+        text-align: center;
+        img{
+            display: flex;
+            justify-content: space-around;
+            max-height: 550px;
+            max-width: 400px;
+        }
+    }
+    .carousel-inner{
+        display: flex;
+        text-align: center;
+        align-content: center;
+    }
+    .boton-comprar{
+        justify-content: center;
+        border-color: #d2924d;
+        color: white;
+        background-color:#d2924d;
+        border: 2px solid #003049;
+        border-radius: 4px;
+        padding: 2px;
+    }
+    .comprar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .boton-comprar:hover {
+        background-color: #003049;
+        color: white;
+    }
+    .comprar-ultimo{
+        text-align: center;
+    }
+    .card-text{
+        font-weight: bold;
+    }
+    .text-center{
+        font-weight: bold;
+    }
+    p {
+        color: #003049;
+    }
+    #categoria {
+        text-align: center;
+        padding: 30px;
+        font-weight: bold;
+        font-size:30px
+    }
+    .categoria {
+        font-size: 25px;
+        color: #003049;
+        font-weight: 500;
+        margin: 20px 30px;
+        text-align: center;
+    }
+    .contenedor-tarjeta {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+        gap: 20px;
+        justify-items: center;
+        margin: 10px 20px;
+    }
+    .card-shadow {
+        padding: 10px;
+        border: 1px solid #d2924d;
+        background-color: #fff;
+      }
+    .card-img-top {
+        width: 100%;
+        height: 230px;
+    }
+    .contenedor-servicios {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+        gap: 20px;
+        margin: 20px 40px;
+        justify-items: center;
+    }
+    .card-serv {
+        text-align: center
+    }
+    #quienes-somos {
+        color: #003049;
+        font-weight: 500;
+        font-size: 25px;
+        margin-bottom: 60px;
+        padding: 10px 20px;
+        text-align: justify;
+    }
+    .servicio-img {
+        margin-bottom: 30px;
+    }
+    .form-container{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .form {
+        background-color: #f1f1f1;
+        border: 2px solid #ccc;
+        border-color: #ff983f;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+        border-radius: 3px;
+    }
+    
+    .form h3 {
+        font-size: 24px;
+        color: #003049;
+        margin-bottom: 10px;
+    }
+    
+    .form img {
+        max-width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+    
+    .form label {
+        display: block;
+        font-size: 18px;
+        color: #003049;
+        margin-top: 10px;
+    }
+    
+    .form input[type="text"],
+    .form input[type="email"],
+    .form input[type="tel"],
+    .form select,
+    .form textarea,
+    .form input[type="file"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 2px solid #ccc;
+        border-color: #ff983f;
+        font-size: 16px;
+        color: #003049;
+        border-radius: 4px;
+    }
+    
+    .form input[type="submit"] {
+        background-color: #003049;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .form input[type="submit"]:hover {
+        background-color: #ff983f;
+        transition: background-color 0.3s ease;
+    }
+    
+    .form p {
+        font-size: 16px;
+        color: #003049;
+        margin-top: 20px;
+    }
+    
+    .form strong {
+        font-weight: bold;
+    }
+    
+    .form select {
+        font-size: 16px;
+    }
+    dl {
+        margin: 0;
+        padding: 0;
+    }
+    
+    dt {
+        font-weight: bold;
+        color: #003049;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    dd {
+        margin-left: 0;
+        font-size: 16px;
+        color: #003049;
+    }
+    
+    h3 {
+        text-align: center;
+        font-size: 24px;
+        color: #003049;
+        margin: 10px 0;
+        margin: 0;
+        background-color: #d2924d;
+    }
+    dl {
+        margin-top: 30px;
+    }
+    .definicion {
+        text-align: center;
+        font-weight: 500;
+    }
+    .termino {
+        text-align: center;
+        font-weight: 700;
+    }
+    .contenedor-glosario{
+        img{
+            width: 100%;
+            height: fit-content
+        }
+    }
+}

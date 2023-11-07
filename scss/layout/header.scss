@@ -1,0 +1,39 @@
+header{
+    background-color: #265246;
+    width: 100%;
+    height: auto;
+    .my-logo{
+        width: 200px;
+        height: 175px;
+    }
+    .img-nav{
+        padding-right: 0%;
+    }
+    nav{
+        display: flex;
+    }
+        .navbar-collapse{
+            justify-content: space-between;
+            justify-content: center;
+        }
+        ul{
+            li{
+                padding: 15px 15px;
+                font-size: 14px;
+            }
+        }
+    .menu-header{
+        font-weight: 600;
+    }
+    .nav-button{
+        border-radius: 4px;
+        a{
+            text-align: center;
+        }
+    }
+    .d-flex button{
+        border: 1px solid #d2924d;
+        color: #d2924d;
+        margin-left: 3px;
+    }
+}

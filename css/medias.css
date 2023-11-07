@@ -1,0 +1,66 @@
+@media (max-width: 375px) {
+  #footer-1 {
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .img-contacto {
+    display: flex;
+    width: 50px;
+    height: 50px;
+  }
+  #quienes-somos {
+    font-weight: 400;
+    font-size: 18px;
+  }
+}
+@media (min-width: 375px) and (max-width: 573px) {
+  .img-contacto {
+    width: 50px;
+    height: 50px;
+  }
+  .form-container {
+    align-items: center;
+  }
+  .form {
+    width: 90%;
+  }
+  #footer-1 {
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  #quienes-somos {
+    font-weight: 450;
+    font-size: 20px;
+  }
+  .form-container {
+    flex-direction: column;
+  }
+}
+@media (min-width: 1252px) {
+  .img-contacto {
+    width: 90px;
+    height: 90px;
+  }
+}
+.contenedor-glosario img {
+  height: fit-content;
+}
+
+@media (min-width: 574px) {
+  .form-container {
+    flex-direction: row;
+  }
+  .img-contacto {
+    width: 90px;
+    height: 90px;
+  }
+}
+@media (min-width: 600px) {
+  .comprar-ultimo {
+    margin-top: 65px;
+  }
+}
+
+/*# sourceMappingURL=medias.css.map */

@@ -1,0 +1,223 @@
+main #productosDestacados {
+  margin-top: 10px;
+}
+main h2 {
+  text-align: center;
+  font-size: 25px;
+  color: #003049;
+  padding: 30px;
+}
+main .carousel-control-prev, main .carousel-control-next {
+  color: #d2924d;
+}
+main .carrusel {
+  display: flex;
+  width: 100%;
+  padding: 30px;
+}
+main .carousel-item {
+  text-align: center;
+}
+main .carousel-item img {
+  display: flex;
+  justify-content: space-around;
+  max-height: 550px;
+  max-width: 400px;
+}
+main .carousel-inner {
+  display: flex;
+  text-align: center;
+  align-content: center;
+}
+main .boton-comprar {
+  justify-content: center;
+  border-color: #d2924d;
+  color: white;
+  background-color: #d2924d;
+  border: 2px solid #003049;
+  border-radius: 4px;
+  padding: 2px;
+}
+main .comprar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+main .boton-comprar:hover {
+  background-color: #003049;
+  color: white;
+}
+main .comprar-ultimo {
+  text-align: center;
+}
+main .card-text {
+  font-weight: bold;
+}
+main .text-center {
+  font-weight: bold;
+}
+main p {
+  color: #003049;
+}
+main #categoria {
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 30px;
+}
+main .categoria {
+  font-size: 25px;
+  color: #003049;
+  font-weight: 500;
+  margin: 20px 30px;
+  text-align: center;
+}
+main .contenedor-tarjeta {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin: 10px 20px;
+}
+main .card-shadow {
+  padding: 10px;
+  border: 1px solid #d2924d;
+  background-color: #fff;
+}
+main .card-img-top {
+  width: 100%;
+  height: 230px;
+}
+main .contenedor-servicios {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  gap: 20px;
+  margin: 20px 40px;
+  justify-items: center;
+}
+main .card-serv {
+  text-align: center;
+}
+main #quienes-somos {
+  color: #003049;
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 60px;
+  padding: 10px 20px;
+  text-align: justify;
+}
+main .servicio-img {
+  margin-bottom: 30px;
+}
+main .form-container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+main .form {
+  background-color: #f1f1f1;
+  border: 2px solid #ccc;
+  border-color: #ff983f;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 3px;
+}
+main .form h3 {
+  font-size: 24px;
+  color: #003049;
+  margin-bottom: 10px;
+}
+main .form img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+main .form label {
+  display: block;
+  font-size: 18px;
+  color: #003049;
+  margin-top: 10px;
+}
+main .form input[type=text],
+main .form input[type=email],
+main .form input[type=tel],
+main .form select,
+main .form textarea,
+main .form input[type=file] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 2px solid #ccc;
+  border-color: #ff983f;
+  font-size: 16px;
+  color: #003049;
+  border-radius: 4px;
+}
+main .form input[type=submit] {
+  background-color: #003049;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+main .form input[type=submit]:hover {
+  background-color: #ff983f;
+  transition: background-color 0.3s ease;
+}
+main .form p {
+  font-size: 16px;
+  color: #003049;
+  margin-top: 20px;
+}
+main .form strong {
+  font-weight: bold;
+}
+main .form select {
+  font-size: 16px;
+}
+main dl {
+  margin: 0;
+  padding: 0;
+}
+main dt {
+  font-weight: bold;
+  color: #003049;
+  font-size: 18px;
+  margin-top: 10px;
+}
+main dd {
+  margin-left: 0;
+  font-size: 16px;
+  color: #003049;
+}
+main h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #003049;
+  margin: 10px 0;
+  margin: 0;
+  background-color: #d2924d;
+}
+main dl {
+  margin-top: 30px;
+}
+main .definicion {
+  text-align: center;
+  font-weight: 500;
+}
+main .termino {
+  text-align: center;
+  font-weight: 700;
+}
+main .contenedor-glosario img {
+  width: 100%;
+  height: fit-content;
+}
+
+/*# sourceMappingURL=main.css.map */
