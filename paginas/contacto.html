@@ -1,29 +1,44 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
+    <!-- Meta etiquetas para codificación y viewport -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora nuestra tienda para encontrar las mejores ofertas en computadoras, 
+    componentes y servicios de computación. Ofrecemos una amplia selección de equipos, desde potentes PC gaming hasta laptops y servidores. 
+    Además, encuentra las últimas partes de computadoras, tarjetas gráficas, SSDs y más. Nuestros servicios incluyen armado de equipos, 
+    mantenimiento y asesoría técnica. ¡Mejora tu experiencia informática con nosotros!">
+    <meta name="keywords" content="computadoras, PC gaming, laptops, servidores, partes de computadoras, tarjetas gráficas, SSDs, memoria RAM, 
+    procesadores, armado de equipos, mantenimiento de computadoras, asesoría técnica, hardware, software, tienda de computadoras, tecnología informática">
+    <!-- Enlaces a hojas de estilo y fuentes externas -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=
-    Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+    <!-- Icono del sitio -->
     <link rel="shortcut icon" href="../recursos/icon logo.png" type="image/x-icon">
-    <title>Contactanos</title>
+    <!-- Título de la página -->
+    <title>Contactanos - Mr. Robot</title>
 </head>
 <body>
+    <!-- Encabezado de la página -->
     <header>
+        <!-- Barra de navegación -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
+                <!-- Logo del sitio -->
                 <a class="navbar-brand img-nav" href="../index.html">
                     <img src="../recursos/FullLogo.png" alt="Bootstrap" class="img-fluid my-logo">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- Botón de menú para dispositivos móviles -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!-- Menú de navegación -->
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav menu-header">
+                        <!-- Enlaces a secciones principales -->
                         <li class="nav-item">
                             <div class="nav-button">
                                 <a class="nav-link" href="./productos.html">PRODUCTOS</a>
@@ -45,6 +60,7 @@
                             </div>
                         </li>
                     </ul>
+                    <!-- Formulario de búsqueda -->
                     <form class="form-inline">
                         <div class="d-flex">
                           <input class="form-control" type="search" placeholder="ingresa tu comando" aria-label="Buscar">
@@ -53,14 +69,18 @@
                     </form>
                 </div>
             </div>
-          </nav>
+        </nav>
     </header>
+    <!-- Contenido principal -->
     <main>
+        <!-- Título de la sección de contacto -->
         <h2 id="categoria">CONTACTANOS</h2>
+        <!-- Contenedor de formularios -->
         <div class="form-container">
+            <!-- Formulario de preguntas y dudas -->
             <div class="form">
                 <h3>Si tienes dudas, habla con nosotros</h3>
-                <img src="../recursos/questions.jpg" alt="">
+                <img src="../recursos/questions.jpg" alt="contacto de ayuda">
                 <form action="" method="post">
                     <label for="nombre">Nombre</label>
                     <input type="text" id="nombre" name="nombre">
@@ -73,9 +93,10 @@
                     <input type="submit" value="enviar">
                 </form>
             </div>
+            <!-- Formulario para trabajar con nosotros -->
             <div class="form">
                 <h3>Sé una <strong>parte esencial</strong> de Mr. robot</h3>
-                <img src="../recursos/contacto form.jpg" alt="">
+                <img src="../recursos/contacto form.jpg" alt="contacto trabaja con nosotros">
                 <form action="procesar.php" method="post" enctype="multipart/form-data">
                     <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" name="nombre" required>
@@ -102,47 +123,52 @@
             </div>
         </div>
     </main>
+    <!-- Pie de página -->
     <footer id="footer-1">
-        <div class="footer-info">
-            <p>Metodos de pago</p>
-            <ul>
-                <li>Tarjeta de débito y crédito</li>
-                <li>Transferencia bancaría</li>
-                <li>Paypal</li>
-            </ul>
-        </div>
-        <div class="footer-info">
-            <p>Envios</p>
-            <ul>
-                <li>Starken</li>
-                <li>Chile Express</li>
-                <li>DHL</li>
-            </ul>
-        </div>
-        <div class="footer-info">
-            <p>Encuentranos</p>
+        <div class="container">
+            <!-- Información de métodos de pago -->
+            <div class="footer-info">
+                <p>Metodos de pago</p>
+                <ul>
+                    <li>Tarjeta de débito y crédito</li>
+                    <li>Transferencia bancaría</li>
+                    <li>Paypal</li>
+                </ul>
+            </div>
+            <!-- Información de métodos de envío -->
+            <div class="footer-info">
+                <p>Envios</p>
+                <ul>
+                    <li>Starken</li>
+                    <li>Chile Express</li>
+                    <li>DHL</li>
+                </ul>
+            </div>
+            <!-- Enlaces a redes sociales -->
+            <div class="footer-info">
+                <p>Encuentranos</p>
                 <div class="img-contenedor">
-                    <a href=""></a><img class="img-contacto" src="../recursos/facebook.png" 
-                    alt="youtube">
+                    <a href=""><img class="img-contacto" src="../recursos/facebook.png" alt="facebook"></a>
                 </div>
                 <div class="img-contenedor">
-                    <a href=""></a><img class="img-contacto" src="../recursos/instagram.png" 
-                    alt="instagram">
+                    <a href=""><img class="img-contacto" src="../recursos/instagram.png" alt="instagram"></a>
                 </div>
                 <div class="img-contenedor">
-                    <a href=""></a><img class="img-contacto" src="../recursos/whatsapp.png" 
-                    alt="whatsapp">
+                    <a href=""><img class="img-contacto" src="../recursos/whatsapp.png" alt="whatsapp"></a>
                 </div>
-            </ul>
+            </div>
+            <!-- Información sobre trabajar con nosotros -->
+            <div class="footer-info">
+                <p>Trabaja con nosotros</p>
+                <p>Forma parte de los recursos de Mr. Robot</p>
+            </div>
         </div>
-        <div class="footer-info">
-            <p><a href="../contacto.html">Trabaja con nosotros</a></p>
-            <p>Forma parte de los recursos de Mr. Robot</p>
-        </div>
+        <!-- Derechos de autor -->
         <div id="footer-2">
             <h3>© 2023 Mr Robot. Todos los derechos reservados.</h3>
         </div>
     </footer>
+    <!-- Scripts de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,28 +1,40 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href="../css/styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=
-        Roboto:wght@100;400;500&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" href="../recursos/icon logo.png" type="image/x-icon">
-        <title>Glosario</title>
-    </head>
+<head>
+    <!-- Meta etiquetas para codificación y viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora nuestra tienda para encontrar las mejores ofertas en computadoras, 
+    componentes y servicios de computación. Ofrecemos una amplia selección de equipos, desde potentes PC gaming hasta laptops y servidores. 
+    Además, encuentra las últimas partes de computadoras, tarjetas gráficas, SSDs y más. Nuestros servicios incluyen armado de equipos, 
+    mantenimiento y asesoría técnica. ¡Mejora tu experiencia informática con nosotros!">
+    <meta name="keywords" content="computadoras, PC gaming, laptops, servidores, partes de computadoras, tarjetas gráficas, SSDs, memoria RAM, 
+    procesadores, armado de equipos, mantenimiento de computadoras, asesoría técnica, hardware, software, tienda de computadoras, tecnología informática">
+    <!-- Enlaces a hojas de estilo y fuentes externas -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+    <!-- Icono de la pestaña del navegador -->
+    <link rel="shortcut icon" href="../recursos/icon logo.png" type="image/x-icon">
+    <!-- Título de la página -->
+    <title>Glosario</title>
+</head>
 <body class="glosario">
     <header>
+        <!-- Barra de navegación -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand img-nav" href="../index.html">
-                    <img src="../recursos/FullLogo.png" alt="Bootstrap" class="img-fluid my-logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="../recursos/FullLogo.png" alt="Bootstrap" class="img-fluid my-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav menu-header">
+                        <!-- Opciones de menú -->
                         <li class="nav-item">
                             <div class="nav-button">
                                 <a class="nav-link" href="./productos.html">PRODUCTOS</a>
@@ -31,7 +43,7 @@
                         <li class="nav-item menu-button">
                             <div class="nav-button">
                                 <a class="nav-link" href="./servicios.html">SERVICIOS</a>
-                            <div>
+                            </div>
                         </li>
                         <li class="nav-item menu-button">
                             <div class="nav-button">
@@ -44,102 +56,92 @@
                             </div>
                         </li>
                     </ul>
+                    <!-- Barra de búsqueda -->
                     <form class="form-inline">
                         <div class="d-flex">
-                          <input class="form-control" type="search" placeholder="ingresa tu comando" aria-label="Buscar">
-                          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                            <input class="form-control" type="search" placeholder="Ingresa tu comando" aria-label="Buscar">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
                         </div>
                     </form>
                 </div>
             </div>
-          </nav>
+        </nav>
     </header>
     <main>
-        <h2 id="categoria">Si no sabes que es AMD, memoria RAM o un SSD, aqui tienes nuestro input para 
-            que tomes una decisión informada</h2>
-            <dl class="contenedor-glosario">
-                <img src="../recursos/imagenglosa1.jpg" alt="hardware">
-                <dt class="termino">Procesador</dt>
-                    <dd class="definicion">La unidad central de procesamiento, que ejecuta instrucciones 
-                y realiza cálculos en una computadora. actualmente en el mercado existen dos 
-                fabricantes principales, AMD (Advanced Micro Devices) e Intel Corp (intel)</dd>
-                <dt class="termino">Detalle de la Garantía</dt>
-                    <dd class="definicion">Información sobre la garantía que ofrece el fabricante</dd>
-                <dt class="termino">Tamaño de la Pantalla</dt>
-                    <dd class="definicion">Indica el tamaño diagonal de la pantalla en pulgadas</dd>
-                <dt class="termino">Resolución de Pantalla</dt>
-                    <dd class="definicion"> La resolución de la pantalla, que determina la calidad de la imagen</dd>
-                <dt class="termino">Capacidad de Almacenamiento</dt>
-                    <dd class="definicion">La capacidad del disco duro o almacenamiento interno</dd>
-                <dt class="termino">HDD (Disco Duro)</dt>
-                    <dd class="definicion">Almacenamiento mecánico con discos giratorios y cabezales de lectura/escritura 
-                magnéticos. Ofrece alta capacidad pero es más lento debido a las partes en movimiento.</dd>
-                <dt class="termino">SSD (Unidad de Estado Sólido)</dt>
-                    <dd class="definicion">Almacenamiento electrónico sin partes móviles que utiliza chips de memoria flash. 
-                Es más rápido, duradero y eficiente en energía que los HDD.</dd>
-                <dt class="termino">Tarjeta Grafica</dt>
-                    <dd class="definicion">Una tarjeta gráfica (GPU o Graphics Processing Unit) es un componente de hardware 
-                que mejora el rendimiento gráfico de una computadora. Procesa y muestra imágenes y gráficos en una pantalla. 
-                Dos fabricantes prominentes de tarjetas gráficas son NVIDIA y AMD. Estas tarjetas son esenciales para juegos, 
-                diseño gráfico y aplicaciones intensivas en gráficos, y varían en capacidades y características.</dd>
-                <dt class="termino">Memoria RAM</dt>
-                    <dd class="definicion">Es un componente de la computadora que almacena temporalmente datos y programas en 
-                ejecución para proporcionar acceso rápido a la CPU, mejorando el rendimiento.</dd>
-                <dt class="termino">Velocidad de Imagen</dt>
-                    <dd class="definicion">Se refiere a la tasa de actualización de la pantalla en hercios (Hz), que determina 
-                cuántas imágenes por segundo puede mostrar, influyendo en la fluidez y la experiencia visual.</dd>
-                <dt class="termino">Velocidad de Procesamiento</dt>
-                    <dd class="definicion">Se refiere a la velocidad a la que una unidad de procesamiento, como una CPU, ejecuta
-                instrucciones. Se mide en gigahercios (GHz) y determina cuán rápido una computadora puede realizar cálculos y tareas, 
-                afectando el rendimiento general de la máquina en aplicaciones y juegos.</dd>
-                <dt class="termino">Sistema Operativo</dt>
-                    <dd class="definicion">Es un software que administra recursos de hardware y proporciona servicios esenciales para la 
-                ejecución de programas en una computadora. Coordina tareas, gestiona archivos y permite la interacción del usuario.</dd>
-                <img src="../recursos/pexels-dan-cristian-pădureț-1476321 (1).jpg" alt="glosario-img2">
-            </dl>
-            
+        <!-- Contenido principal -->
+        <h2 id="categoria">Si no sabes qué es AMD, memoria RAM o un SSD, aquí tienes nuestro input para que tomes una decisión informada</h2>
+        <dl class="contenedor-glosario">
+            <img src="../recursos/imagenglosa1.jpg" alt="hardware">
+            <!-- Términos y definiciones -->
+            <dt class="termino">Procesador</dt>
+            <dd class="definicion">La unidad central de procesamiento, que ejecuta instrucciones y realiza cálculos en una computadora. Actualmente en el mercado existen dos fabricantes principales, AMD (Advanced Micro Devices) e Intel Corp (Intel)</dd>
+            <dt class="termino">Detalle de la Garantía</dt>
+            <dd class="definicion">Información sobre la garantía que ofrece el fabricante</dd>
+            <dt class="termino">Tamaño de la Pantalla</dt>
+            <dd class="definicion">Indica el tamaño diagonal de la pantalla en pulgadas</dd>
+            <dt class="termino">Resolución de Pantalla</dt>
+            <dd class="definicion">La resolución de la pantalla, que determina la calidad de la imagen</dd>
+            <dt class="termino">Capacidad de Almacenamiento</dt>
+            <dd class="definicion">La capacidad del disco duro o almacenamiento interno</dd>
+            <dt class="termino">HDD (Disco Duro)</dt>
+            <dd class="definicion">Almacenamiento mecánico con discos giratorios y cabezales de lectura/escritura magnéticos. Ofrece alta capacidad pero es más lento debido a las partes en movimiento.</dd>
+            <dt class="termino">SSD (Unidad de Estado Sólido)</dt>
+            <dd class="definicion">Almacenamiento electrónico sin partes móviles que utiliza chips de memoria flash. Es más rápido, duradero y eficiente en energía que los HDD.</dd>
+            <dt class="termino">Tarjeta Gráfica</dt>
+            <dd class="definicion">Una tarjeta gráfica (GPU o Graphics Processing Unit) es un componente de hardware que mejora el rendimiento gráfico de una computadora. Procesa y muestra imágenes y gráficos en una pantalla. Dos fabricantes prominentes de tarjetas gráficas son NVIDIA y AMD. Estas tarjetas son esenciales para juegos, diseño gráfico y aplicaciones intensivas en gráficos, y varían en capacidades y características.</dd>
+            <dt class="termino">Memoria RAM</dt>
+            <dd class="definicion">Es un componente de la computadora que almacena temporalmente datos y programas en ejecución para proporcionar acceso rápido a la CPU, mejorando el rendimiento.</dd>
+            <dt class="termino">Velocidad de Imagen</dt>
+            <dd class="definicion">Se refiere a la tasa de actualización de la pantalla en hercios (Hz), que determina cuántas imágenes por segundo puede mostrar, influyendo en la fluidez y la experiencia visual.</dd>
+            <dt class="termino">Velocidad de Procesamiento</dt>
+            <dd class="definicion">Se refiere a la velocidad a la que una unidad de procesamiento, como una CPU, ejecuta instrucciones. Se mide en gigahercios (GHz) y determina cuán rápido una computadora puede realizar cálculos y tareas, afectando el rendimiento general de la máquina en aplicaciones y juegos.</dd>
+            <dt class="termino">Sistema Operativo</dt>
+            <dd class="definicion">Es un software que administra recursos de hardware y proporciona servicios esenciales para la ejecución de programas en una computadora. Coordina tareas, gestiona archivos y permite la interacción del usuario.</dd>
+            <img src="../recursos/pexels-dan-cristian-pădureț-1476321 (1).jpg" alt="glosario-img2">
+        </dl>
     </main>
     <footer id="footer-1">
-        <div class="footer-info">
-            <p>Metodos de pago</p>
-            <ul>
-                <li>Tarjeta de débito y crédito</li>
-                <li>Transferencia bancaría</li>
-                <li>Paypal</li>
-            </ul>
-        </div>
-        <div class="footer-info">
-            <p>Envios</p>
-            <ul>
-                <li>Starken</li>
-                <li>Chile Express</li>
-                <li>DHL</li>
-            </ul>
-        </div>
-        <div class="footer-info">
-            <p>Encuentranos</p>
+        <!-- Información de pie de página -->
+        <div class="container">
+            <div class="footer-info">
+                <p>Métodos de pago</p>
+                <ul>
+                    <li>Tarjeta de débito y crédito</li>
+                    <li>Transferencia bancaria</li>
+                    <li>Paypal</li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <p>Envíos</p>
+                <ul>
+                    <li>Starken</li>
+                    <li>Chile Express</li>
+                    <li>DHL</li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <p>Encuéntranos</p>
                 <div class="img-contenedor">
-                    <a href=""></a><img class="img-contacto" src="../recursos/facebook.png" 
-                    alt="youtube">
+                    <a href="#"><img class="img-contacto" src="../recursos/facebook.png" alt="Facebook"></a>
                 </div>
                 <div class="img-contenedor">
-                    <a href=""></a><img class="img-contacto" src="../recursos/instagram.png" 
-                    alt="instagram">
+                    <a href="#"><img class="img-contacto" src="../recursos/instagram.png" alt="Instagram"></a>
                 </div>
                 <div class="img-contenedor">
-                    <a href=""></a><img class="img-contacto" src="../recursos/whatsapp.png" 
-                    alt="whatsapp">
+                    <a href="#"><img class="img-contacto" src="../recursos/whatsapp.png" alt="Whatsapp"></a>
                 </div>
-            </ul>
-        </div>
-        <div class="footer-info">
-            <p><a href="../contacto.html">Trabaja con nosotros</a></p>
-            <p>Forma parte de los recursos de Mr. Robot</p>
+            </div>
+            <div class="footer-info">
+                <p><a href="./contacto.html">Trabaja con nosotros</a></p>
+                <p>Forma parte de los recursos de Mr. Robot</p>
+            </div>
         </div>
         <div id="footer-2">
             <h3>© 2023 Mr Robot. Todos los derechos reservados.</h3>
         </div>
     </footer>
+    <!-- Scripts de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
+
 </html>

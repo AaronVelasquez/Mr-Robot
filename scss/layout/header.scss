@@ -1,5 +1,4 @@
 header{
-    background-color: #265246;
     width: 100%;
     height: auto;
     .my-logo{
@@ -32,8 +31,8 @@ header{
         }
     }
     .d-flex button{
-        border: 1px solid #d2924d;
-        color: #d2924d;
+        border: 1px solid $color-boton;
+        color: $color-boton;
         margin-left: 3px;
     }
 }

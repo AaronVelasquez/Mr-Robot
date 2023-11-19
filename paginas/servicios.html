@@ -1,28 +1,40 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href="../css/styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=
-        Roboto:wght@100;400;500&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" href="../recursos/icon logo.png" type="image/x-icon">
-        <title>Servicios</title>
-    </head>
+<head>
+    <!-- Meta etiquetas para codificación y viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora nuestra tienda para encontrar las mejores ofertas en computadoras, 
+    componentes y servicios de computación. Ofrecemos una amplia selección de equipos, desde potentes PC gaming hasta laptops y servidores. 
+    Además, encuentra las últimas partes de computadoras, tarjetas gráficas, SSDs y más. Nuestros servicios incluyen armado de equipos, 
+    mantenimiento y asesoría técnica. ¡Mejora tu experiencia informática con nosotros!">
+    <meta name="keywords" content="computadoras, PC gaming, laptops, servidores, partes de computadoras, tarjetas gráficas, SSDs, memoria RAM, 
+    procesadores, armado de equipos, mantenimiento de computadoras, asesoría técnica, hardware, software, tienda de computadoras, tecnología informática">
+    <!-- Enlaces a hojas de estilo y fuentes externas -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+    <!-- Icono de la pestaña del navegador -->
+    <link rel="shortcut icon" href="../recursos/icon logo.png" type="image/x-icon">
+    <!-- Título de la página -->
+    <title>Servicios</title>
+</head>
 <body>
     <header>
+        <!-- Barra de navegación -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand img-nav" href="../index.html">
-                    <img src="../recursos/FullLogo.png" alt="Bootstrap" class="img-fluid my-logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="../recursos/FullLogo.png" alt="Bootstrap" class="img-fluid my-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav menu-header">
+                        <!-- Opciones de menú -->
                         <li class="nav-item">
                             <div class="nav-button">
                                 <a class="nav-link" href="./productos.html">PRODUCTOS</a>
@@ -31,7 +43,7 @@
                         <li class="nav-item menu-button">
                             <div class="nav-button">
                                 <a class="nav-link" href="./servicios.html">SERVICIOS</a>
-                            <div>
+                            </div>
                         </li>
                         <li class="nav-item menu-button">
                             <div class="nav-button">
@@ -44,90 +56,93 @@
                             </div>
                         </li>
                     </ul>
+                    <!-- Barra de búsqueda -->
                     <form class="form-inline">
                         <div class="d-flex">
-                          <input class="form-control" type="search" placeholder="ingresa tu comando" aria-label="Buscar">
-                          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                            <input class="form-control" type="search" placeholder="Ingresa tu comando" aria-label="Buscar">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
                         </div>
                     </form>
                 </div>
             </div>
-          </nav>
+        </nav>
     </header>
     <main>
+        <!-- Contenido principal -->
         <h2 id="categoria">SERVICIOS</h2>
         <div class="contenedor-servicios">
+            <!-- Servicio 1 -->
             <div class="card-serv" style="width: 18rem;">
                 <h3>ARMADO</h3>
-                <img src="../recursos/pc-5737958_1920.jpg" class="card-img-top" alt="...">
+                <img src="../recursos/pc-5737958_1920.jpg" class="card-img-top" alt="Armado">
                 <div class="card-body">
-                  <p class="card-text">Si necesitas ayuda armando todas esas partes que compraste, 
-                    deja que Mr. robot te ayude.</p>
+                    <p class="card-text">Si necesitas ayuda armando todas esas partes que compraste, deja que Mr. Robot te ayude.</p>
                 </div>
             </div>
+            <!-- Servicio 2 -->
             <div class="card-serv" style="width: 18rem;">
                 <h3>SERVICIO TÉCNICO</h3>
-                <img src="../recursos/customer-relationship-management-concept.jpg" class="card-img-top" alt="...">
+                <img src="../recursos/customer-relationship-management-concept.jpg" class="card-img-top" alt="Servicio Técnico">
                 <div class="card-body">
-                  <p class="card-text">Te ayudamos para que puedas emplear tu tiempo en las
-                    cosas que importan.</p>
-                  <ul>
-                    <li>Mantención y reparación de hardware</li>
-                    <li>configuracion personalizada de software</li>
-                    <li>asesoría de proyectos</li>
-                  </ul>
+                    <p class="card-text">Te ayudamos para que puedas emplear tu tiempo en las cosas que importan.</p>
+                    <ul>
+                        <li>Mantención y reparación de hardware</li>
+                        <li>Configuración personalizada de software</li>
+                        <li>Asesoría de proyectos</li>
+                    </ul>
                 </div>
             </div>
+            <!-- Servicio 3 -->
             <div class="card-serv" style="width: 18rem;">
-                <h3>REDES Y CONECTIVDAD</h3>
-                <img src="../recursos/futuristic-smart-city-with-5g-global-network-technology.jpg" class="card-img-top" alt="...">
+                <h3>REDES Y CONECTIVIDAD</h3>
+                <img src="../recursos/futuristic-smart-city-with-5g-global-network-technology.jpg" class="card-img-top" alt="Redes y Conectividad">
                 <div class="card-body">
-                  <p class="card-text">Mejoramos la conectividad para mantenerlo siempre conectado 
-                    y en funcionamiento de manera eficiente</p>
+                    <p class="card-text">Mejoramos la conectividad para mantenerlo siempre conectado y en funcionamiento de manera eficiente.</p>
                 </div>
             </div>
+        </div>
     </main>
     <footer id="footer-1">
-        <div class="footer-info">
-            <p>Metodos de pago</p>
-            <ul>
-                <li>Tarjeta de débito y crédito</li>
-                <li>Transferencia bancaría</li>
-                <li>Paypal</li>
-            </ul>
-        </div>
-        <div class="footer-info">
-            <p>Envios</p>
-            <ul>
-                <li>Starken</li>
-                <li>Chile Express</li>
-                <li>DHL</li>
-            </ul>
-        </div>
-        <div class="footer-info">
-            <p>Encuentranos</p>
+        <!-- Información de pie de página -->
+        <div class="container">
+            <div class="footer-info">
+                <p>Métodos de pago</p>
+                <ul>
+                    <li>Tarjeta de débito y crédito</li>
+                    <li>Transferencia bancaria</li>
+                    <li>Paypal</li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <p>Envíos</p>
+                <ul>
+                    <li>Starken</li>
+                    <li>Chile Express</li>
+                    <li>DHL</li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <p>Encuéntranos</p>
                 <div class="img-contenedor">
-                    <a href=""></a><img class="img-contacto" src="../recursos/facebook.png" 
-                    alt="youtube">
+                    <a href="#"><img class="img-contacto" src="../recursos/facebook.png" alt="Facebook"></a>
                 </div>
                 <div class="img-contenedor">
-                    <a href=""></a><img class="img-contacto" src="../recursos/instagram.png" 
-                    alt="instagram">
+                    <a href="#"><img class="img-contacto" src="../recursos/instagram.png" alt="Instagram"></a>
                 </div>
                 <div class="img-contenedor">
-                    <a href=""></a><img class="img-contacto" src="../recursos/whatsapp.png" 
-                    alt="whatsapp">
+                    <a href="#"><img class="img-contacto" src="../recursos/whatsapp.png" alt="Whatsapp"></a>
                 </div>
-            </ul>
-        </div>
-        <div class="footer-info">
-            <p><a href="../contacto.html">Trabaja con nosotros</a></p>
-            <p>Forma parte de los recursos de Mr. Robot</p>
+            </div>
+            <div class="footer-info">
+                <p><a href="./contacto.html">Trabaja con nosotros</a></p>
+                <p>Forma parte de los recursos de Mr. Robot</p>
+            </div>
         </div>
         <div id="footer-2">
             <h3>© 2023 Mr Robot. Todos los derechos reservados.</h3>
         </div>
     </footer>
+    <!-- Scripts de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

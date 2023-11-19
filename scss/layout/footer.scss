@@ -1,12 +1,15 @@
 footer {
-  background-color: #f1f1f1;
+  background-color: $color-fondo;
     #footer-1 {
-      width: 100%;
       height: auto;
       background-color: #265246;
       margin-top: 30px;
       display: flex;
       justify-content: space-between;
+      .container {
+        display: flex;
+        flex-direction: row;
+      }
     }
     #footer-2 {
       display: flex;
@@ -14,7 +17,7 @@ footer {
       justify-content: center;
       align-items: center;
       padding: 10px;
-      background-color: #003049!important;
+      background-color: $color-primario!important;
       font-family: "roboto", sans-serif;
       font-size: 30px;
         h4 {
@@ -24,7 +27,7 @@ footer {
     }
     div {
       p {
-        color: #003049;
+        color: $color-primario;
         font-family: "roboto", sans-serif;
         font-size: 20px;
         padding: 10px;
@@ -34,16 +37,16 @@ footer {
     .footer-info {
       display: flex;
       flex-direction: column;
-      border-color: #ff983f;
+      border-color: $color-boton;
       padding: 20px;
       font-weight: 600;
-      color: #003049;
+      color: $color-primario;
       align-items: center;
       p {
         text-decoration: none;
         a {
           text-decoration: none;
-          color: #003049;
+          color: $color-primario;
         }
       }
       ul {
